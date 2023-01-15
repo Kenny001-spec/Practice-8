@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,700;1,500&display=swap');
+
+body {
+    font-family: 'Noto Serif Display', serif;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.iconBig {
+    font-size: 100px;
+    color: #da2f2f80;
+    border: 1px solid wheat;
+
+}
+
+.iconSmall {
+    font-size: 50px;
+    color: chocolate;
+    border: 1px solid whitesmoke;
+    padding: 0px 10px;
+    border-radius: 8px;
+
+
+}
+#section2 {
+    padding: 25px;
+    background-color: cadetblue;
+    border: #a52a2a56;
+}
+
+.gridItem {
+    height: 50px;
+    padding: 10px;
+    background-color: #81b29a;
+    border: 1px solid #2b6aaa;
+    text-align: center;
+    font-size: 30px;
+    color: cadetblue;
+    
+}
+
+.gridCon {
+    display: grid;
+    grid-template-columns: 100px 80px 120px 250px;
+    padding: 25px;
+    background-color: cadetblue;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-evenly;
+
+}
+.flexcon {
+    flex-direction: row;
+    display: flex;
+    background-color: #cb997e;
+    padding: 25px;
+    column-gap: 10px;
+}
+
+.flexItem {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: #a52a2a93;
+    width: 25%;
+}
+
+#hero {
+    height: 100vh;
+    background-image:linear-gradient(hsla(0, 16%, 29%, 0.178), rgba(0, 0, 0, 0.438)), url(/car.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heroflexCon {
+    display: flex;
+    padding:100px 100px 0px;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.formRow {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+
+.heroHeader {
+    font-size: 65px;
+    margin: 0px;
+}
+
+.heroHeadeSpan {
+    color: coral;
+    font-size: 73px;
+}
+.heroText {
+    width: 50%;
+    padding: 15px;
+}
+
+.heroform {
+    width: 50px;
+    padding: 50px 15px;
+    background-color: yellow;
+}
+.formCenter {
+    text-align: center;
+
+}
